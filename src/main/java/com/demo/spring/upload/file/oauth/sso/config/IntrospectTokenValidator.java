@@ -1,6 +1,6 @@
-package com.demo.spring.files.upload.db.config;
+package com.demo.spring.upload.file.oauth.sso.config;
 
-import com.demo.spring.files.upload.db.exception.ValidatorErrorHandler;
+import com.demo.spring.upload.file.oauth.sso.exception.ValidatorErrorHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

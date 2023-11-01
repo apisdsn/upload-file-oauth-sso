@@ -1,4 +1,4 @@
-package com.demo.spring.files.upload.db.message;
+package com.demo.spring.upload.file.oauth.sso.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

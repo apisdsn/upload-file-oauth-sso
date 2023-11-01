@@ -1,4 +1,4 @@
-package com.demo.spring.files.upload.db.config;
+package com.demo.spring.upload.file.oauth.sso.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

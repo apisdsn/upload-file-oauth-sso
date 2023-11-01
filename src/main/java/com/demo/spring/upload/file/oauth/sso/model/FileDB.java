@@ -1,4 +1,4 @@
-package com.demo.spring.files.upload.db.model;
+package com.demo.spring.upload.file.oauth.sso.model;
 
 
 

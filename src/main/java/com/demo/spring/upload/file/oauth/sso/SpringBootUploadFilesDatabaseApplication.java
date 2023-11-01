@@ -1,4 +1,4 @@
-package com.demo.spring.files.upload.db;
+package com.demo.spring.upload.file.oauth.sso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.demo.spring.files.upload.db.exception;
+package com.demo.spring.upload.file.oauth.sso.exception;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.demo.spring.files.upload.db.config;
+package com.demo.spring.upload.file.oauth.sso.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

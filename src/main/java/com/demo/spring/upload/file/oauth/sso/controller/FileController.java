@@ -1,14 +1,13 @@
-package com.demo.spring.files.upload.db.controller;
+package com.demo.spring.upload.file.oauth.sso.controller;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.demo.spring.files.upload.db.message.ResponseFile;
-import com.demo.spring.files.upload.db.message.ResponseMessage;
-import com.demo.spring.files.upload.db.model.FileDB;
-import com.demo.spring.files.upload.db.model.WebRequest;
-import com.demo.spring.files.upload.db.service.FileStorageService;
+import com.demo.spring.upload.file.oauth.sso.message.ResponseFile;
+import com.demo.spring.upload.file.oauth.sso.message.ResponseMessage;
+import com.demo.spring.upload.file.oauth.sso.model.FileDB;
+import com.demo.spring.upload.file.oauth.sso.model.WebRequest;
+import com.demo.spring.upload.file.oauth.sso.service.FileStorageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

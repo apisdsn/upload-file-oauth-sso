@@ -1,17 +1,17 @@
-package com.demo.spring.files.upload.db.service;
+package com.demo.spring.upload.file.oauth.sso.service;
 
 import java.io.IOException;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-import com.demo.spring.files.upload.db.model.WebRequest;
+import com.demo.spring.upload.file.oauth.sso.model.WebRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.demo.spring.files.upload.db.model.FileDB;
-import com.demo.spring.files.upload.db.repository.FileDBRepository;
+import com.demo.spring.upload.file.oauth.sso.model.FileDB;
+import com.demo.spring.upload.file.oauth.sso.repository.FileDBRepository;
 
 @Service
 public class FileStorageService {
