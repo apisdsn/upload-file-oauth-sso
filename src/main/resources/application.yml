@@ -1,0 +1,33 @@
+spring:
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: http://localhost:8080
+          jwk-set-uri: http://localhost:8080/oauth/v2/keys
+      opaque-token:
+        introspection-uri: http://localhost:8080/oauth/v2/introspect
+        client-id: 238279431167213575@dev
+        client-secret: RTJGswKsxg2ajW8MzL5SN0oudFpueHuc4TuLeBX7oHC4f81Wh2Zgkcza3i5FQ75l
+  datasource:
+    url: jdbc:mysql://localhost:3306/image_upload?serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+server:
+  port: 9090
+
+zitadel:
+    iam:
+      org:
+        project:
+          roles-attribute: urn:zitadel:iam:org:project:238279061330198535:roles
